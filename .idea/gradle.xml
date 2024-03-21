@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Jwt" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Jwt" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/config_server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/config_server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../SoftwareArchitecture-Week6/JWT" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../SoftwareArchitecture-Week6/JWT" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../ThucHanhTuan5/spring_boot_api_jwt_ad/spring_boot_api_jwt_ad" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../ThucHanhTuan5/spring_boot_api_jwt_ad/spring_boot_api_jwt_ad" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../test/SoftwareArchitecture-Week6/Service1_Auth_JWT" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../test/SoftwareArchitecture-Week6/Service1_Auth_JWT" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
