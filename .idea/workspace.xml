@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="119c7518-d191-4443-a2e3-6764f894bdcc" name="Changes" comment="get User with database MariaDb">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/13-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/JWT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/authen/UserPrincipal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/entity/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/filter/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/repository/TokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/service/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/service/TokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/java/vn/edu/iuh/fit/auth_jwt/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jwt/src/test/java/vn/edu/iuh/fit/auth_jwt/Service1ProductApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/iuh/spring/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/iuh/spring/gateway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/iuh/spring/gateway/filter/RoleAuthorizationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/iuh/spring/gateway/filter/RouteValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/iuh/spring/gateway/util/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/iuh/spring/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/ProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/test/java/iuh/spring/product/ProductApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/src/main/java/iuh/spring/registry/RegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/src/test/java/iuh/spring/registry/RegistryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/test/java/iuh/spring/user/UserApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Jwt">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../SoftwareArchitecture-Week6/JWT">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../ThucHanhTuan5/spring_boot_api_jwt_ad/spring_boot_api_jwt_ad">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../test/SoftwareArchitecture-Week6/Service1_Auth_JWT">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.haulmont.jpb.JpaRepository" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2diVx9T9NMhJ0KbHDbLyLYkw2V4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/HK2(2023-2024)/KIENTRUCPHANMEM/13-3/gateway/src/main/java/iuh/spring/gateway",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HK2(2023-2024)\KIENTRUCPHANMEM\13-3\gateway\src\main\java\iuh\spring\gateway" />
+      <recent name="D:\HK2(2023-2024)\KIENTRUCPHANMEM\13-3\jwt\src\main\java\vn\edu\iuh\fit" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iuh.spring.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iuh.spring.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWT (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="com.example.Service1_Auth_JWT.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vn.edu.iuh.fit.auth_jwt.JWT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWT" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Service1_Auth_JWT.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vn.edu.iuh.fit.auth_jwt.JWT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring_boot_api_jwt_ad" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="vn.edu.iuh.fit.JwtApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iuh.spring.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iuh.spring.registry.RegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iuh.spring.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.JWT (1)" />
+      <item itemvalue="Spring Boot.JWT" />
+      <item itemvalue="Spring Boot.JwtApplication" />
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.RegistryApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="119c7518-d191-4443-a2e3-6764f894bdcc" name="Changes" comment="" />
+      <created>1710491129780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710491129780</updated>
+      <workItem from="1710491130883" duration="5493000" />
+      <workItem from="1710729891294" duration="2194000" />
+      <workItem from="1710948987736" duration="743000" />
+      <workItem from="1710954734809" duration="2417000" />
+      <workItem from="1710957177552" duration="323000" />
+      <workItem from="1710957508416" duration="14000" />
+      <workItem from="1710957569140" duration="10076000" />
+      <workItem from="1710994467368" duration="5121000" />
+    </task>
+    <task id="LOCAL-00001" summary="add readme.md">
+      <option name="closed" value="true" />
+      <created>1710502770239</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710502770239</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme.md" />
+  </component>
+</project>

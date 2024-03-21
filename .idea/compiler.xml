@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="registry" />
+        <module name="product" />
+        <module name="user" />
+        <module name="gateway" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../../HK1(2023-2024)/LapTrinhWWW/gradle-8.2/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
+        </processorPath>
+        <module name="com.example.Service1_Auth_JWT.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jwt" target="17" />
+      <module name="spring_boot_api_jwt_ad" target="17" />
+      <module name="spring_boot_api_jwt_ad (1)" target="11" />
+      <module name="spring_boot_api_jwt_ad (2)" target="11" />
+      <module name="vn.edu.iuh.fit.spring_boot_api_jwt_ad" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="-parameters" />
+      <module name="jwt" options="-parameters" />
+      <module name="product" options="-parameters" />
+      <module name="registry" options="-parameters" />
+      <module name="spring_boot_api_jwt_ad" options="-parameters" />
+      <module name="spring_boot_api_jwt_ad (1)" options="-parameters" />
+      <module name="spring_boot_api_jwt_ad (2)" options="-parameters" />
+      <module name="user" options="-parameters" />
+    </option>
+  </component>
+</project>
