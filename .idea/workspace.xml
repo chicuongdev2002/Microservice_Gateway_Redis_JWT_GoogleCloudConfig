@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="119c7518-d191-4443-a2e3-6764f894bdcc" name="Changes" comment="update">
+    <list default="true" id="119c7518-d191-4443-a2e3-6764f894bdcc" name="Changes" comment="update spring cloud config client-server">
       <change afterPath="$PROJECT_DIR$/config_server/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config_server/build.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config_server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
@@ -15,19 +15,6 @@
       <change afterPath="$PROJECT_DIR$/config_server/src/main/java/vn/edu/iuh/fit/ConfigServerApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config_server/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/config_server/src/test/java/vn/edu/iuh/fit/ConfigServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/registry/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registry/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/registry/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +224,7 @@
       <workItem from="1710957569140" duration="10076000" />
       <workItem from="1710994467368" duration="7761000" />
       <workItem from="1711008121868" duration="496000" />
-      <workItem from="1711095263662" duration="4348000" />
+      <workItem from="1711095263662" duration="4717000" />
     </task>
     <task id="LOCAL-00001" summary="add readme.md">
       <option name="closed" value="true" />
@@ -257,6 +244,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add readme.md" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update spring cloud config client-server" />
+    <option name="LAST_COMMIT_MESSAGE" value="update spring cloud config client-server" />
   </component>
 </project>
