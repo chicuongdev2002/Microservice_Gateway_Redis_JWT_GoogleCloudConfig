@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="119c7518-d191-4443-a2e3-6764f894bdcc" name="Changes" comment="update spring cloud config client-server">
-      <change afterPath="$PROJECT_DIR$/config_server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/src/main/java/vn/edu/iuh/fit/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config_server/src/test/java/vn/edu/iuh/fit/ConfigServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="119c7518-d191-4443-a2e3-6764f894bdcc" name="Changes" comment="fix redis user,product">
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/iuh/spring/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/iuh/spring/user/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +226,8 @@
       <workItem from="1710957569140" duration="10076000" />
       <workItem from="1710994467368" duration="7761000" />
       <workItem from="1711008121868" duration="496000" />
-      <workItem from="1711095263662" duration="4717000" />
+      <workItem from="1711095263662" duration="6717000" />
+      <workItem from="1711110206337" duration="8163000" />
     </task>
     <task id="LOCAL-00001" summary="add readme.md">
       <option name="closed" value="true" />
@@ -234,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710502770239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix redis user,product">
+      <option name="closed" value="true" />
+      <created>1711118369964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711118369964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +256,7 @@
     <MESSAGE value="add readme.md" />
     <MESSAGE value="update" />
     <MESSAGE value="update spring cloud config client-server" />
-    <option name="LAST_COMMIT_MESSAGE" value="update spring cloud config client-server" />
+    <MESSAGE value="fix redis user,product" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix redis user,product" />
   </component>
 </project>
